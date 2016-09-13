@@ -1,0 +1,15 @@
+[package]
+name = "apath"
+version = "0.1.0"
+authors = ["Joseph A Mark <sjeohp@gmail.com>"]
+license = "MIT"
+description = "A* pathfinding graph search."
+keywords = ["a-star", "path", "pathfinding", "graph", "search"]
+repository = "https://github.com/sjeohp/rust-graph.git"
+
+[dependencies]
+nalgebra = "0.8.2"
+
+[lib]
+name = "apath"
+path = "src/lib.rs"
